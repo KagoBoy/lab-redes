@@ -1,0 +1,36 @@
+   2  2026-10-13 23:28:07 docker pull hello-world  
+   3  2026-10-13 23:28:07 docker run hello-world
+   4  2026-10-13 23:28:07 docker
+   5  2026-10-13 23:28:07 docker run -i -t ubuntu /bin/bash
+   6  2026-10-13 23:28:07 git  clone  https://github.com/diced/zipline.git
+   7  2026-10-13 23:28:07 cd zipeline
+   8  2026-10-13 23:28:07 cd zipeline/
+   9  2026-10-13 23:28:07 cd zipline/
+   0  2026-10-13 23:28:07 echo "POSTGRESQL_PASSWORD=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" > .env
+   11  2026-10-13 23:28:07 echo "CORE_SECRET=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" >> .env
+   12  2026-10-13 23:28:07 docker compose up -d
+   13  2026-10-13 23:28:07 docker ps
+   14  2026-10-13 23:28:07 echo 'export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "' >> ~/.bashrc
+   15  2026-10-13 23:28:07 cd ..
+   16  2026-10-13 23:28:07 echo 'export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "' >> ~/.bashrc
+   17  2026-10-13 23:28:07 cd zipline/
+   18  2026-10-13 23:28:07 cd ..
+   19  2026-10-13 23:28:07 #Começando configuração do Docker
+   20  2026-10-13 23:28:07 history
+   21  2026-10-13 23:28:07 exit
+   22  2026-10-13 23:28:07 newgrp docker
+   23  2026-10-13 23:28:07 sudo  usermod  -aG  docker  $USER
+   24  2026-10-13 23:28:07 newgrp docker
+   25  2026-10-13 23:28:07 cd .
+   26  2026-10-13 23:28:07 cd ..
+   27  2026-10-13 23:28:07 cd ~/
+   28  2026-10-13 23:28:07 cd zipline
+   29  2026-10-13 23:28:07 docker ps
+   30  2026-10-13 23:28:07 ezit
+   31  2026-10-13 23:28:07 exit
+   32  2026-10-13 23:28:10 docker ps
+   33  2026-10-13 23:28:40 history
+   34  2026-10-13 23:45:01 docker compose config
+   35  2026-10-13 23:45:11 cd zipline/
+   36  2026-10-13 23:45:13 docker compose config
+   37  2026-10-13 23:53:22 history
